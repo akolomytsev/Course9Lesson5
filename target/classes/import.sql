@@ -1,0 +1,11 @@
+--DROP TABLE users IF EXISTS;
+--CREATE TABLE `student`.`students` (
+--  `id` INT NOT NULL AUTO_INCREMENT,
+--  `name` VARCHAR(45) NOT NULL,
+--  `mark` SMALLINT NOT NULL,
+--  PRIMARY KEY (`id`));
+--  INSERT INTO `student`.`students` (`name`, `mark`) VALUES ('MarkI', '5');
+--  INSERT INTO `student`.`students` (`name`, `mark`) VALUES ('MarkII', '4');
+--  INSERT INTO `student`.`students` (`name`, `mark`) VALUES ('178500', '2');
+--CREATE TABLE IF NOT EXISTS users (id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, mark int NOT NULL);
+--INSERT INTO users (name, mark) VALUES ('Bob', 5), ('Jack', 5), ('John', 2);
